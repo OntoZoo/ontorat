@@ -1,0 +1,74 @@
+# This is the template for setting up the Ontorat input conditions. 
+# Any text after # is just for notes and won't be used by Ontorat.
+
+[Online URL of the target OWL file (RDF/XML format)]
+# Note: Local file won't be used by Ontorat for security reason.   
+
+
+[Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
+# Note: Local file won't be used by Ontorat for security reason. 
+
+
+Actual data starts from row: 2
+
+
+[New axioms will be used to]
+# Note: two options: 1. "generate new classes", 
+# or 2. "edit existing classes with term IDs defined in column A(or another letter)"
+generate new classes  
+  
+[Annotations]
+# Note: Use comma to separate annotations
+'label' "{$columnA}", 
+'alternative term' "{$columnB}", 
+'alternative term' "{$columnC}", 
+'alternative term' "{$columnD}", 
+'definition' "{$columnG}", 
+'definition source' "{$columnH}", 
+'example of usage' "{$columnI}",
+'definition editor' "{$columnAH}",
+'project source' "{$columnAI}"
+
+[Equivalent classes]
+# Note: Use comma to separate classes 
+
+
+[Superclasses]
+# Note: Use comma to separate classes 
+<http://purl.obolibrary.org/obo/{$columnF}>,
+'achieves planned objective' some <http://purl.obolibrary.org/obo/{$columnK}>,
+'has participant' some <http://purl.obolibrary.org/obo/{$columnM}>,
+'has participant' some <http://purl.obolibrary.org/obo/{$columnO}>,
+'has part' some <http://purl.obolibrary.org/obo/{$columnQ}>,
+'has part' some <http://purl.obolibrary.org/obo/{$columnS}>,
+'has part' some <http://purl.obolibrary.org/obo/{$columnU}>,
+'has part' some <http://purl.obolibrary.org/obo/{$columnW}>,
+'has part' some <http://purl.obolibrary.org/obo/{$columnY}>,
+'has part' some <http://purl.obolibrary.org/obo/{$columnAA}>,
+'realizes' some ('evaluant role' and 'is role of' some <http://purl.obolibrary.org/obo/{$columnAC}>),
+'has_specified_output' some <http://purl.obolibrary.org/obo/{$columnAE}>
+
+[Terms used to define anntoations, equivalent classes and superclasses]
+# Note: One line per term
+AnnotationProperty: 
+'project source': <http://purl.org/dc/elements/1.1/source> 
+Class:
+'evaluant role': <http://purl.obolibrary.org/obo/OBI_0000067>
+ObjectProperty:
+'achieves planned objective': <http://purl.obolibrary.org/obo/OBI_0000417>
+'has participant': <http://purl.obolibrary.org/obo/BFO_0000057>
+'has part': <http://purl.obolibrary.org/obo/BFO_0000051>
+'realizes': <http://purl.obolibrary.org/obo/BFO_0000055>
+'is role of': <http://purl.obolibrary.org/obo/BFO_0000081>
+'has_specified_output': <http://purl.obolibrary.org/obo/OBI_0000299>
+DataProperty:
+
+[Term URIs start with]
+# Note: provide a prefix ontology URIs
+http://purl.obolibrary.org/obo/
+
+[Auto-generated term ID]
+# Note: Prefix like "VO_", number of digits like "7", and start from like "1".
+Prefix: OBI_
+Number of digits: 7
+Start from:  1921

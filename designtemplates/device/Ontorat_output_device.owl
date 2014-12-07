@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000085 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000085"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000345"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000361"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000364"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000372"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000453"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001900">
+        <rdfs:label>Genome Analyzer IIx_QTT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400103"/>
+        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000115>A DNA sequencer which is manufactured by 454 Life Science Corporation and enables pyrosequencing to be performed. It comprises both optics and fluidics subsystems, which are
+controlled by a computer subsystem. The fluidics subsystem ensures accurate reagent dispensing. It consists of a reagents cassette (which holds the reagent containers), a sipper manifold, pumps, valves, and debubblers. The fluidics subsystem flows the sequencing reagents across the wells of the PicoTiterPlate device, and moves the spent reagents from the PicoTiterPlate device to the waste receptacle. The optics subsystem consists of a CCD camera and a camera controller. The camera captures the light emitted in the wells of the PicoTiterPlate device during each step of the sequencing cycle, and sends the digital images to the computer subsystem for processing. The computer controls the other Sequencer subsystems, and processes the digital images sent by the camera to extract the DNA sequence information.</obo:IAO_0000115>
+        <obo:IAO_0000118>Illumina GA IIx</obo:IAO_0000118>
+        <obo:IAO_0000118>Illumina Genome Analyzer IIx</obo:IAO_0000118>
+        <obo:IAO_0000112>PMID: 18946007.Pyrosequencing analysis of the oral microflora of healthy adults. 
+Keijser BJ, Zaura E, Huse SM, van der Vossen JM, Schuren FH, Montijn RC, ten Cate JM, Crielaard W. J Dent Res. 2008 Nov;87(11):1016-20.</obo:IAO_0000112>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001901">
+        <rdfs:label>HiSeq 2000_QTT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000345"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000453"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A mass spectrometer is an instrument which is used to measure the mass to charge ratio of ions. All mass spectrometers consist of three basic parts: an ion source, a mass analyzer, and a detector system. The stages within the mass spectrometer are: 1. Production of ions from the sample 2. Separation of ions with different masses 3. Detection of the number of ions of each mass produced 4.Collection of data to generate the mass spectrum</obo:IAO_0000115>
+        <obo:IAO_0000112>LCQ Fleet Ion Trap MSn manufactured by thermo fisher scientific</obo:IAO_0000112>
+        <obo:IAO_0000118>Illumina HiSeq 2000</obo:IAO_0000118>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Mass_spectrometry</obo:IAO_0000119>
+        <obo:IAO_0000117>PERSON: Frank Gibson</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001902">
+        <rdfs:label>HiSeq 2500_QTT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000453"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Illumina HiSeq 2500</obo:IAO_0000118>
+        <obo:IAO_0000112>The mass analyzer of the Voyager-DE(tm) STR Biospectrometry Workstation</obo:IAO_0000112>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Mass_spectrometry#Mass_analyzer</obo:IAO_0000119>
+        <obo:IAO_0000115>A device that separates ions according to their mass-to-charge ratio. All mass spectrometers are based on dynamics of charged particles in electric and magnetic fields in vacuum where the two laws of Lorentz force law and Newton&apos;s second law of motion apply.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Frank Gibson, Daniel Schober</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001903">
+        <rdfs:label>MiSeq_QTT</rdfs:label>
+        <obo:IAO_0000118>Illumina MiSeq</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001904">
+        <rdfs:label>Methylation 450K BeadChip_QTT</rdfs:label>
+        <obo:IAO_0000118>Illumina Infinium Human Methylation 450K BeadChip</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001905">
+        <rdfs:label>Methylation 27K BeadChip_QTT</rdfs:label>
+        <obo:IAO_0000118>Illumina Infinium Human Methylation 27K BeadChip</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001906">
+        <rdfs:label>1M-Duo Infinium HD BeadChip_QTT</rdfs:label>
+        <obo:IAO_0000118>Illumina Human 1M-Duo Infinium HD BeadChip</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001907">
+        <rdfs:label>SOLiD 3 Plus System_QTT</rdfs:label>
+        <obo:IAO_0000118>Applied Biosystems SOLiD 3 Plus System</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001908">
+        <rdfs:label>Mouse 385K Whole Genome CGH Tiling Array_QTT</rdfs:label>
+        <obo:IAO_0000118>Nimblegen Mouse 385K Whole Genome CGH Tiling Array</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001909">
+        <rdfs:label>Mouse 3x720K Whole Genome CGH Tiling Array_QTT</rdfs:label>
+        <obo:IAO_0000118>Nimblegen Mouse 3x720K Whole Genome CGH Tiling Array</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001910">
+        <rdfs:label>Human 3x720K Whole Genome CGH Tiling Array_QTT</rdfs:label>
+        <obo:IAO_0000118>Nimblegen Human 3x720K Whole Genome CGH Tiling Array</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001911">
+        <rdfs:label>Human 2.1M Whole-Genome CGH Tiling Array v2.0_QTT</rdfs:label>
+        <obo:IAO_0000118>Nimblegen Human 2.1M Whole-Genome CGH Tiling Array v2.0</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001912">
+        <rdfs:label>PacBio RS II_QTT</rdfs:label>
+        <obo:IAO_0000118>Pacific Biosciences RS II</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400103"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000010">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000011">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000012">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000013">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000014">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000015">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000016">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000017">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000018">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000019">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000020">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000021">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000022">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000023">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000024">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000025">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000027">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000028">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000030">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000031">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000032">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Vacutainer</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000033">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000034">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000035">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000036">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Buffy_coat</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000039">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000040">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000041">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000042">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000043">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Nicotine_patch</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000044">
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Cigarette</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000045">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Nicotine_gum</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000046">
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Cigar</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000047">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Chewing_tobacco</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000048">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000049">
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Smoking_pipe</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000050">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Electronic_cigarette</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000051">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000052">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000053">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000054">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000055">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000056">
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIOBANK_0000057">
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+
